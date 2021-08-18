@@ -1,0 +1,135 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  font-size:62.5%;
+}
+
+:root{
+  --orange-main:#FA6405;
+  --yellow-background:#FAB205;
+  --title-subtitle:'Lobster', cursive;
+  --background-info-green:#6CDE1D;
+  --letra-info-green:#336412;
+  --parrafos:'Poppins', sans-serif;
+}
+
+/*------------------------------------------------*/
+
+.headImage{
+  width:100vw;
+  height:30vh;
+  object-fit:cover;
+}
+
+.logo{
+  color:var(--orange-main);
+  font-size:12rem;
+  text-align:center;
+  font-family:var(--title-subtitle);
+}
+
+.infoClient{
+ 
+  color:var(--letra-info-green);
+  padding:3rem;
+  margin:0 1rem;
+  margin-top:3rem;
+  font-size:2 rem;
+  text-align:center;
+  font-family:var(--parrafos);
+}
+
+.containerNav1{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  font-size:5rem;
+  height:20vh;
+  margin:5rem 0;
+}
+
+.containerNav1 a{
+  text-decoration:none;
+  color:#fff;
+  background:var(--orange-main);
+  padding:4rem;
+}
+
+.containerNav1 a:hover{
+  background:var(--yellow-background);
+}
+
+.containerNav1 a:active{
+  background:var(--yellow-background);
+}
+
+
+.containerNav1 li{
+ list-style:none;
+}
+
+
+
+.containerNav2{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  margin:5rem;
+}
+
+.containerNav2{
+  list-style:none;
+}
+
+.iconSocial{
+  width:15rem;
+  height:15rem;
+}
+
+footer{
+  background:var(--orange-main);
+  font-size:2rem;
+  padding:3rem;
+  color:#fff;
+  text-align:center;
+}
+
+
+
+
+.containerAuthor{
+  background:papayawhip;
+  padding:4rem;
+  margin:1rem;
+  font-size:1rem;
+  font-family:var(--parrafos);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
